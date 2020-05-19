@@ -29,7 +29,7 @@ namespace StudentList
             {
                 if (item.subject == "뉴미디어콘텐츠제작")
                 {
-                    list.Remove(item);
+                    list.RemoveAt(item);
                 }
                 //Console.Write(item.name+":"+item.subject);
             }*/
