@@ -25,6 +25,14 @@ namespace StudentList
             list.Add(new Teacher() { name = "우호식", subject = "수학" });
             list.Add(new Teacher() { name = "이은주", subject = "영어" });
 
+            for (var i = list.Count-1; i>=0; i++)
+            {
+                if (list[i].subject == "뉴미디어콘텐츠제작")
+                {
+                    list.RemoveAt(i);
+                }
+            }
+
             /*foreach(var item in list)
             {
                 if (item.subject == "뉴미디어콘텐츠제작")
